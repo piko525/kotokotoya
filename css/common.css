@@ -229,6 +229,7 @@ h5 {
 
 /* footer_main_nav */
 .footer_nav .footer_main_nav {
+    color: #FFF;
     overflow: hidden;
     padding-top: 20px;
 }
@@ -237,7 +238,7 @@ h5 {
     float: left;
     background-image: url("../images/common/footer_arrow.png");
     background-repeat: no-repeat;
-    background-position: 0 50%;
+    background-position: 0 1px;
     padding-left: 20px;
 }
 
@@ -247,11 +248,10 @@ h5 {
     width: 192px;
     float: right;
     font-size: 100%;
-    margin: 20px;
 }
 .footer_sab_nav li {
     list-style-type: square;
-    color: #FAFAFA;
+    color: #FFF;
 }
 
 #footer .copyright {
