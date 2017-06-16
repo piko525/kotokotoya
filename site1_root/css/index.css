@@ -1,0 +1,72 @@
+.main_visual {
+    clear: both;
+	padding-top: 40px;
+}
+
+
+
+
+
+/* ----- #main_contents ----- */
+#main_contents {
+	width: 620px;
+	float: left;
+	clear: both;
+    padding: 40px 30px 0 0;
+}
+#main_contents dl {
+    overflow: hidden;
+    clear: both;
+	font-size: 140%;
+    line-height: 1.11;
+	padding: 20px 0 10px 0;
+    border-bottom: 1px dashed #999;
+}
+#main_contents dt {
+	float: left;
+	width: 150px;
+    text-align: center;
+}
+#main_contents dd {
+	float: right;
+	width: 450px;
+}
+#main_contents span {
+    display: inline-block;
+    white-space: nowrap;
+}
+.new_shop {
+    color: #FAFAFA;
+	margin: 5px;
+	padding: 8px;
+	text-align: center;
+	background-color: #ff3399;
+}
+.ramen_show {
+    color: #FAFAFA;
+	margin: 5px;
+	padding: 8px;
+    text-align: center;
+	background-color: #009933;
+}
+.kansai_shop {
+	color: #FAFAFA;
+	margin: 5px;
+	padding: 8px;
+    text-align: center;
+    background-color: #ff6600;
+}
+.nishi_umeda {
+	color: #FAFAFA;
+	margin: 5px;
+	padding: 8px;
+    text-align: center;
+	background-color: #0033ff;
+}
+
+/* #contents_1 */
+
+/* #contents_2 */
+#contents_2 {
+	padding-top: 30px;
+}

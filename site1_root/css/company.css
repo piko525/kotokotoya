@@ -1,0 +1,113 @@
+/* ----- #com_contents ----- */
+#com_contents {
+	width: 620px;
+	float: left;
+    padding: 20px 30px 0 0;
+}
+
+
+
+
+
+/* ----- タブメニュー ----- */
+#com_tab_menu {
+    font-size: 140%;
+    padding-top: 30px;
+}
+
+#com_tab_menu ul {
+    overflow: hidden;
+}
+#com_tab_menu ul li {
+    width: 120px;
+    float: left;
+    list-style-type: none;
+    height: 20px;
+    padding: 5px 15px 5px 15px;
+    margin-right: 5px;
+    background-color: #FFF;
+    cursor: pointer;
+}		
+#com_tab_menu ul li.selected {
+	color: #FFF;
+	background-color: #B43104;
+	cursor:default;
+}
+
+#com_tab_menu #tab_text_area {
+	clear: both;
+    width: 600px;
+    padding: 10px;
+    border: 1px #B43104 solid;
+    background-color: #FFF;
+}
+
+
+
+
+
+/* ----- タブ内のテーブル ----- */
+/* #text_1のテーブル装飾 */
+#text_1 table {
+    width: 100%;
+}
+#text_1 table tr .text_1_top {
+    border-top: none;
+}
+#text_1 table tr th {
+	border-bottom: #e3e3e3 1px solid;
+	text-align: left;
+	background: #f7f7f7;
+	padding: 10px;
+	font-weight: normal;
+}
+#text_1 table tr td {
+	border-bottom: #e3e3e3 1px solid;
+	text-align: left;
+	padding: 10px;
+}
+#text_1 table tr .text_1_last {
+    border-bottom: none;
+}
+
+
+
+/* #text_2のテーブル装飾 */
+#text_2 table {
+    width: 100%;
+}
+#text_2 table th,
+#text_2 table td {
+    border-bottom: 1px dotted #CCC;
+    padding: 10px;
+    text-align: left;
+    font-weight: normal;
+}
+#text_2 table tr .text_2_last {
+    border-bottom: none;
+}
+
+
+
+/* #text_3のテーブル装飾 */
+#text_3 table {
+    width: 100%;
+    background-color: #FBF8EF;
+}
+#text_3 table tr th {
+    width: 120px;
+	border-bottom: none;
+	text-align: left;
+	padding: 10px;
+	font-weight: normal;
+}
+#text_3 table tr td {
+    width: 430px;
+    font-size: 90%;
+	border-bottom: none;
+	text-align: left;
+	padding: 15px;
+}
+#text_3 table .text_3_bg {
+    background-color: #F6E3CE;
+}

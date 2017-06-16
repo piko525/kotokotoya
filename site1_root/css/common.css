@@ -1,0 +1,257 @@
+/* ----- ページ全体 ----- */
+body {
+    font-family: sans-serif;
+    font-size: 62.5%; /* font-size: 10px; */
+    line-height: 1.6;
+	background-image: url("../images/common/bg_gra.gif");
+    background-repeat: repeat-x;
+}
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* トップへ戻るボタン */
+#page-top {
+	position: fixed;
+    font-size: 160%;
+	bottom: 20px;
+	right: 20px;
+}
+#page-top a {
+	background: #61210B;
+	text-decoration: none;
+	color: #fff;
+	width: 100px;
+	padding: 30px 0;
+	text-align: center;
+	display: block;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+#page-top a:hover {
+	text-decoration: none;
+	background: #B43104;
+}   
+
+
+
+
+
+/* ----- 見出し ----- */
+.heading_type-A {
+	font-size: 200%;
+    line-height: inherit;
+    display: none;
+}
+.heading_type-B {
+	font-size: 175%;
+    line-height: 1.352;
+	background-image: url("../images/common/midashi1.gif");
+    background-repeat: no-repeat;
+	color: #FFF;
+    padding: 5px 0 5px 15px;
+}
+.heading_type-C {
+	font-size: 165%;
+    line-height: 1.375;
+    padding: 0 10px;
+    margin: 10px 0 10px 0;
+	border-left: 5px solid #902827;
+}
+.heading_type-D {
+	font-size: 150%;
+	background-image: url("../images/shop_info/shikaku.gif");
+	background-repeat: no-repeat;
+	padding-left: 40px;
+	background-position: 15px;
+}
+h5 {
+	background-image: url("../images/shop_info/h5_midashi.gif");
+	padding-left: 30px;
+	background-repeat: no-repeat;
+	background-position: 10px;
+	font-size: 100%;
+}
+
+
+
+
+
+/* ----- #header_menu ----- */
+#header_menu {
+    text-align: right;
+}
+#header_menu ul {
+    letter-spacing: -0.4em;
+}
+#header_menu li {
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+	font-size: 130%;
+    background-color: floralwhite;
+    letter-spacing: normal;
+}
+#header_menu a {
+    color: #000;
+    text-decoration: none;
+}
+#header_menu a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+/* ----- #main_menu ----- */
+#main_menu {
+	padding-top: 20px;
+}
+#main_menu ul {
+    overflow: hidden;
+    position: relative;
+}
+#main_menu a {
+    display: inline-block;
+}
+#main_menu img {
+    vertical-align: middle;
+}
+
+/* .main_menu_center */
+#main_menu .main_menu_center {
+    position: absolute;
+    left: 384px;
+}
+
+/* .main_menu_left */
+#main_menu .main_menu_left {
+    width: 384px;
+    float: left;
+}
+.main_menu_left li {
+    width: 192px;
+	float: left;
+}
+
+/* .main_menu_right */
+#main_menu .main_menu_right {
+    width: 384px;
+	float: right;
+}
+.main_menu_right li {
+    width: 192px;
+    float: left;
+}
+
+/* パンくずナビ */
+.pankuzu {
+    font-size: 130%;
+    padding-top: 20px;
+}
+
+
+
+
+/* ----- #side_contents ----- */
+#side_contents {
+	width: 310px;
+    float: right;
+    margin-top: 10px;
+}
+#side_contents li {
+    padding-top: 10px;
+}
+#side_contents li a {
+    display: inline-block;
+}
+#side_contents li img {
+    vertical-align: middle;
+}
+
+
+
+
+
+/* ----- #sns_conetnts ----- */
+#sns_contents {
+	clear: both;
+    overflow: hidden;
+    padding-top: 30px;
+}
+#sns_contents li {
+    width: 300px;
+    float: left;
+    padding-left: 20px;
+}
+#sns_contents li img {
+    vertical-align: bottom;
+}
+
+
+
+
+
+/* ----- #footer ----- */
+#footer {
+    clear: both;
+	margin-top: 30px;
+    background-color: #7A1D0B;
+}
+#footer a {
+    color: #FAFAFA;
+    text-decoration: none;
+}
+#footer a:hover {
+    text-decoration: underline;
+}
+
+/* .footer_nav */
+#footer .footer_nav {
+    overflow: hidden;
+    width: 960px;
+    font-size: 130%;
+    margin: 0 auto;
+}
+.footer_nav .footer_logo {
+    clear: both;
+    width: 150px;
+    float: right;
+}
+
+/* footer_main_nav */
+.footer_nav .footer_main_nav {
+    overflow: hidden;
+    padding-top: 20px;
+}
+.footer_main_nav li {
+    width: 165px;
+    float: left;
+    background-image: url("../images/common/footer_arrow.png");
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    padding-left: 20px;
+}
+
+/* footer_sab_nav */
+.footer_nav .footer_sab_nav {
+    clear: both;
+    width: 192px;
+    float: right;
+    font-size: 100%;
+    margin: 20px;
+}
+.footer_sab_nav li {
+    list-style-type: square;
+    color: #FAFAFA;
+}
+
+#footer .copyright {
+    clear: both;
+    font-size: 140%;
+    color: #FAFAFA;
+    text-align: center;
+}

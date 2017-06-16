@@ -1,0 +1,20 @@
+/* ----- #menu_contents ----- */
+#menu_contents {
+    width: 621px;
+	float: left;
+    padding: 20px 29px 0 0;
+}
+.menu_ramen {
+    clear: both;
+    padding-top: 20px;
+}
+.menu_ramen ul {
+    overflow: hidden;
+}
+.menu_ramen li {
+    width: 207px;
+    float: left;
+}
+.menu_ramen img {
+    vertical-align: bottom;
+}

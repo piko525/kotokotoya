@@ -1,0 +1,54 @@
+/* ----- #shop_contents ----- */
+#shop_contents {
+	width: 620px;
+	float: left;
+    padding: 20px 30px 0 0;
+}
+
+
+
+
+
+/* --- #shop_list --- */
+#list_osaka, #list_hyougo {
+    overflow: hidden;
+    padding-top: 20px;
+}
+#list_osaka li, #list_hyougo li {
+    width: 155px;
+    float: left;
+    font-size: 130%;
+    line-height: 1.461;
+    padding-top: 10px;
+}
+
+
+
+
+
+/* --- #shop_about --- */
+#shop_about {
+    margin-top: 30px;
+}
+.shop_about_info {
+    padding-top: 30px;
+}
+.googlemap {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* table */
+.shop_about_info table {
+    width: 100%;
+    font-size: 140%;
+    line-height: 1.429;
+}
+.shop_about_info table tr th,
+.shop_about_info table tr td {
+    border: 1px solid #CCC;
+    padding: 10px 5px; 
+}
+.shop_about_info table th {
+    text-align: left;
+}

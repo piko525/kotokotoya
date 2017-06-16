@@ -1,0 +1,15 @@
+/* ----- #privacy_contents ----- */
+#privacy_contents {
+	width: 620px;
+	float: left;
+    padding: 20px 30px 0 0;
+}
+#privacy_contents p {
+    font-size: 140%;
+}
+.privacy_text {
+    padding-top: 20px;
+}
+.privacy_text li {
+    font-size: 130%;
+}

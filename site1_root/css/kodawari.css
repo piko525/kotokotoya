@@ -1,0 +1,74 @@
+/* ----- #kodawari_contents ----- */
+#kodawari_contents {
+	float: left;
+	width: 620px;
+	padding: 20px 30px 0 0;
+}
+#kodawari_contents p {
+    font-size: 140%;
+    line-height: 1.429;
+}
+
+
+
+
+
+/* ----- #basic_principle ----- */
+#basic_principle {
+    padding-bottom: 10px;
+}
+.principle_text {
+    padding: 10px 0;
+}
+
+
+
+
+
+/* ----- kodawari_list ----- */
+#kodawari_list {
+    padding-top: 30px;
+}
+#kodawari_list .list {
+    overflow: hidden;
+    font-size: 140%;
+    line-height: 1.429;
+}
+.list li {
+    clear: both;
+}
+/* こだわり1，こだわり3 */
+.list-mv02 .kodawari_text_left {
+    float: left;
+    width: 400px;
+}
+.list-mv02 .kodawari_img_right {
+    display: inline-block;
+	float: right;
+    width: 200px;
+}
+/* こだわり2 */
+.list-mv02 .kodawari_text_right {
+    float: right;
+    width: 400px;
+}
+.list-mv02 .kodawari_img_left {
+    display: inline-block;
+	float: left;
+    width: 200px;
+}
+
+/* ズームインして表示する */
+.list{
+	list-style-type: none;
+}
+.list li{
+	transition: .8s;
+}
+
+.list-mv02{
+	opacity: 0;
+}
+.mv02{
+	opacity: 1.0;
+}

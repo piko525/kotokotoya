@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/* ----- #new_info_contents ----- */
+#new_info_contents {
+	float: left;
+	width: 620px;
+	padding: 20px 30px 0 0;
+}
+
+/* #mew_menu */
+#new_menu {
+    overflow: hidden;
+	width: 620px;
+	padding-bottom: 20px;
+}
+#new_menu .new_menu_text {
+	float: left;
+	width: 340px;
+	padding: 10px 0 10px 20px;
+	line-height: 30px;
+}
+#new_menu .new_menu_text p {
+    font-size: 140%;
+    line-height: 1.429;
+}
+#new_menu .new_menu_photo {
+	float: right;
+    width: 215px;
+    padding: 10px 20px 10px 0; 
+}
+
+/* #kupon */
+#kupon {
+	padding-top: 50px;
+	width: 620px;
+	clear: both;
+}
+.kupon_image {
+	padding: 20px;
+}
